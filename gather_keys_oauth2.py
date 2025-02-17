@@ -8,7 +8,7 @@ import webbrowser
 
 from urllib.parse import urlparse
 from base64 import b64encode
-from fitbit.api import Fitbit
+from python_fitbit.fitbit.api import Fitbit
 from oauthlib.oauth2.rfc6749.errors import MismatchingStateError, MissingTokenError
 
 
